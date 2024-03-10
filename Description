@@ -1,0 +1,10 @@
+TvTropes.org is a crowdsourced website that contains a collection of tropes appearing in hundreds of media items, such as films, tv shows and books. According to the website, “A trope is a storytelling device or convention, a shortcut for describing situations the storyteller can reasonably assume the audience will recognize.” Because of its crowdsourced nature, this collection of TV Tropes is a rich source of unstructured information. This makes it a very helpful, but also hard to use resource. One way of structuring all of these information on TV Tropes would be to organise the tropes into meaningful groups (they would form an ‘ontology’ or a ‘taxonomy’) based on how similar two tropes are and on how often tropes occur in the same piece of media. So, the aim of this project would be to build and evaluate such a grouping using a variety of clustering algorithms (e.g. k-means). A comparison of the results obtained with the different algorithms will be undertaken. Related to why taxonomies of media items are important, see this job at Netflix.
+Skills involved: data visualisation, unsupervised machine learning (mostly clustering), natural language processing. There might be some web scraping involved, but not necessarily. The only pre-requisite is some familiarity with coding in python.
+A useful resource with a related approach on a different dataset can be found here.
+How to start.
+Have a look at the TV tropes dataset and at the paper that collected it. I recommend reading the paper to understand more about the dataset.
+Have a look at the TvTropes website from where the dataset is scraped.
+There are multiple  approaches that can be explored. Amongst them, you can try:
+Clustering tropes based on how similar their descriptions are (this is an example of a trope description)
+Clustering tropes based on how often they occur together in the same work of fiction (for example you can see the list of tropes that occur within the film The Hunger Games), potentially together with how many common words they have in the title.
+Clustering tropes based on similar patterns of tropes they co-occur with.
